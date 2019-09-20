@@ -1,0 +1,73 @@
+display:
+  default:
+    display_options:
+      filters:
+        status:
+          group_info:
+            group_items:
+              1:
+                value: '1'
+                title: Pubblicato
+              2:
+                title: 'Non pubblicato'
+            label: 'Stato di pubblicazione'
+          expose:
+            label: Vero
+        bundle:
+          expose:
+            label: 'Fonte esterna'
+        langcode:
+          expose:
+            label: Lingua
+      exposed_form:
+        options:
+          submit_button: Applica
+          reset_button_label: Ripristina
+          exposed_sorts_label: 'Ordina per'
+          sort_asc_label: Asc
+          sort_desc_label: Disc
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Voci per pagina'
+            items_per_page_options_all_label: '- Tutto -'
+            offset_label: Scostamento
+          tags:
+            previous: '‹ Precedente'
+            next: 'Seguente ›'
+            first: '« Prima'
+            last: 'Ultima »'
+      fields:
+        thumbnail__target_id:
+          label: Miniatura
+          separator: ', '
+        name:
+          separator: ', '
+        bundle:
+          label: 'Fonte esterna'
+          separator: ', '
+        uid:
+          label: Autore
+          separator: ', '
+        status:
+          label: Stato
+          settings:
+            format_custom_true: Pubblicato
+            format_custom_false: 'Non pubblicato'
+          separator: ', '
+        changed:
+          label: Aggiornato
+          separator: ', '
+        operations:
+          label: Operazioni
+      title: Media
+      empty:
+        area_text_custom:
+          content: 'Nessun contenuto disponibile.'
+    display_title: Principale
+  media_page_list:
+    display_title: Media
+    display_options:
+      menu:
+        title: Media
+label: Media

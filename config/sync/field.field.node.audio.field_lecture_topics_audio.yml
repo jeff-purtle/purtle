@@ -1,0 +1,28 @@
+uuid: fdd72817-b6f7-4365-9962-1c745cedb37a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lecture_topics_audio
+    - node.type.audio
+    - taxonomy.vocabulary.brass_topics
+id: node.audio.field_lecture_topics_audio
+field_name: field_lecture_topics_audio
+entity_type: node
+bundle: audio
+label: 'Lecture Topics'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      brass_topics: brass_topics
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

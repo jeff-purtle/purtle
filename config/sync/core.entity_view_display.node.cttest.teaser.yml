@@ -1,0 +1,36 @@
+uuid: 6f101633-3c02-4451-acb7-1366dce5bec4
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.cttest.body
+    - field.field.node.cttest.field_music
+    - node.type.cttest
+  module:
+    - text
+    - user
+id: node.cttest.teaser
+targetEntityType: node
+bundle: cttest
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_music: true
+  langcode: true

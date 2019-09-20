@@ -1,0 +1,23 @@
+uuid: 70ccd2f7-76a6-4175-a8ea-c0af7cd966f9
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - node
+    - text
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: node.field_transcription_audio
+field_name: field_transcription_audio
+entity_type: node
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

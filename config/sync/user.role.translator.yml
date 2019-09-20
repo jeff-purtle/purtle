@@ -1,0 +1,40 @@
+uuid: 91f58ea3-3a88-4961-acd5-c0ade9aac80d
+langcode: en
+status: true
+dependencies: {  }
+id: translator
+label: Translator
+weight: -7
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access files overview'
+  - 'access in-place editing'
+  - 'access site in maintenance mode'
+  - 'access toolbar'
+  - 'access tour'
+  - 'edit any article content'
+  - 'edit any media_lecture content'
+  - 'edit any page content'
+  - 'edit any product_display_old content'
+  - 'edit own article content'
+  - 'edit own media_lecture content'
+  - 'edit own page content'
+  - 'edit own product_display_old content'
+  - 'revert article revisions'
+  - 'revert media_lecture revisions'
+  - 'revert page revisions'
+  - 'revert product_display_old revisions'
+  - 'translate article node'
+  - 'translate menu_link_content'
+  - 'translate page node'
+  - 'update content translations'
+  - 'use text format full_html'
+  - 'view all revisions'
+  - 'view article revisions'
+  - 'view media_lecture revisions'
+  - 'view own unpublished content'
+  - 'view page revisions'
+  - 'view post access counter'
+  - 'view product_display_old revisions'

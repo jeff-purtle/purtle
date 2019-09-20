@@ -1,0 +1,27 @@
+uuid: bda21287-4ba4-4ac8-8433-28c23ccb02be
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_music
+    - node.type.cttest
+  module:
+    - file
+id: node.cttest.field_music
+field_name: field_music
+entity_type: node
+bundle: cttest
+label: music
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: private
+  file_extensions: 'mp3 wav'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file
