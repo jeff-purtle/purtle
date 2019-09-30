@@ -43,7 +43,6 @@
         "drupal/geolocation": "^1.11",
         "drupal/google_analytics": "^3.0",
         "drupal/languageicons": "^1.0@beta",
-        "drupal/layout_plugin": "^1.0@alpha",
         "drupal/libraries": "^3.0@alpha",
         "drupal/media_entity": "^1.8",
         "drupal/media_entity_audio": "^1.0@beta",
