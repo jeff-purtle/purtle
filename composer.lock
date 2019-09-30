@@ -2228,17 +2228,17 @@
         },
         {
             "name": "drupal/acl",
-            "version": "1.0.0-alpha1",
+            "version": "1.0.0-alpha2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/acl.git",
-                "reference": "8.x-1.0-alpha1"
+                "reference": "8.x-1.0-alpha2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/acl-8.x-1.0-alpha1.zip",
-                "reference": "8.x-1.0-alpha1",
-                "shasum": "2cb076c451ab99beeb7433272ca56aea4bf48430"
+                "url": "https://ftp.drupal.org/files/projects/acl-8.x-1.0-alpha2.zip",
+                "reference": "8.x-1.0-alpha2",
+                "shasum": "29658f0ff9e503069f6b8c918610eaf491168607"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -2249,8 +2249,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-alpha1",
-                    "datestamp": "1445215139",
+                    "version": "8.x-1.0-alpha2",
+                    "datestamp": "1569227885",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
