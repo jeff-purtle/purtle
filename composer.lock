@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7c45ffdc0e8c0e76ad57945ed351c23a",
+    "content-hash": "675aabf4d5fe3501ae2666da67d34266",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3160,6 +3160,62 @@
             "time": "2019-10-02T18:41:30+00:00"
         },
         {
+            "name": "drupal/crop",
+            "version": "2.0.0-rc1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/crop.git",
+                "reference": "8.x-2.0-rc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/crop-8.x-2.0-rc1.zip",
+                "reference": "8.x-2.0-rc1",
+                "shasum": "ba84fa73e5c4df4caffcfa4a4cfb44c2c7d033d7"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.0-rc1",
+                    "datestamp": "1516298515",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "RC releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Drupal Media Team",
+                    "homepage": "https://www.drupal.org/user/3260690"
+                },
+                {
+                    "name": "slashrsm",
+                    "homepage": "https://www.drupal.org/user/744628"
+                },
+                {
+                    "name": "woprrr",
+                    "homepage": "https://www.drupal.org/user/858604"
+                }
+            ],
+            "description": "Provides storage and API for image crops.",
+            "homepage": "https://www.drupal.org/project/crop",
+            "support": {
+                "source": "https://git.drupalcode.org/project/crop",
+                "issues": "https://www.drupal.org/project/issues/crop"
+            }
+        },
+        {
             "name": "drupal/ctools",
             "version": "3.2.0",
             "source": {
@@ -3918,32 +3974,43 @@
         },
         {
             "name": "drupal/geolocation",
-            "version": "1.11.0",
+            "version": "3.0.0-rc1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/geolocation.git",
-                "reference": "8.x-1.11"
+                "reference": "8.x-3.0-rc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/geolocation-8.x-1.11.zip",
-                "reference": "8.x-1.11",
-                "shasum": "a401d5c576a8c4886e84272f2ca2a3c524c46869"
+                "url": "https://ftp.drupal.org/files/projects/geolocation-8.x-3.0-rc1.zip",
+                "reference": "8.x-3.0-rc1",
+                "shasum": "bd746635e4047c4b80172873339aea7a49c93875"
             },
             "require": {
                 "drupal/core": "*"
             },
+            "require-dev": {
+                "drupal/address": "*",
+                "drupal/geofield": "*",
+                "drupal/geolocation_demo": "*",
+                "drupal/geolocation_google_maps": "*",
+                "drupal/geolocation_google_maps_demo": "*",
+                "drupal/geolocation_google_static_maps": "*",
+                "drupal/geolocation_leaflet": "*",
+                "drupal/search_api": "*",
+                "drupal/search_api_location": "*"
+            },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-1.x": "1.x-dev"
+                    "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.11",
-                    "datestamp": "1505687043",
+                    "version": "8.x-3.0-rc1",
+                    "datestamp": "1554457681",
                     "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
+                        "status": "not-covered",
+                        "message": "RC releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -3953,18 +4020,19 @@
             ],
             "authors": [
                 {
-                    "name": "ChristianAdamski",
-                    "homepage": "https://www.drupal.org/user/867880"
+                    "name": "derjochenmeyer",
+                    "homepage": "https://www.drupal.org/u/derjochenmeyer"
                 },
                 {
-                    "name": "derjochenmeyer",
-                    "homepage": "https://www.drupal.org/user/106134"
+                    "name": "cadamski",
+                    "homepage": "https://www.drupal.org/u/cadamski"
                 }
             ],
             "description": "Provides a simple geolocation Drupal field type to store and display location data (lat, lng).",
             "homepage": "https://www.drupal.org/project/geolocation",
             "support": {
-                "source": "https://git.drupalcode.org/project/geolocation"
+                "source": "http://git.drupal.org/project/geolocation.git",
+                "issues": "https://www.drupal.org/project/issues/geolocation"
             }
         },
         {
