@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cc241da5f3100f8618eec4596d0c556d",
+    "content-hash": "ce2ff91a7e519a37c63a317dc471de68",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3563,55 +3563,6 @@
             "homepage": "https://www.drupal.org/project/db_maintenance",
             "support": {
                 "source": "https://git.drupalcode.org/project/db_maintenance"
-            }
-        },
-        {
-            "name": "drupal/delete_files",
-            "version": "1.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/delete_files.git",
-                "reference": "8.x-1.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/delete_files-8.x-1.4.zip",
-                "reference": "8.x-1.4",
-                "shasum": "b0f14c8e94ee39dfa37ef20fa272dcfcbbcbfc43"
-            },
-            "require": {
-                "drupal/core": "~8.0"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.4",
-                    "datestamp": "1566797286",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Mike Kreuzer (mike_kreuzer)",
-                    "homepage": "https://www.drupal.org/u/mike_kreuzer",
-                    "role": "Maintainer"
-                }
-            ],
-            "description": "Delete files easily.",
-            "homepage": "https://www.drupal.org/project/delete_files",
-            "support": {
-                "source": "http://cgit.drupalcode.org/delete_files",
-                "issues": "https://www.drupal.org/project/issues/delete_files"
             }
         },
         {
